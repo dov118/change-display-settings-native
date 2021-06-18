@@ -2,4 +2,4 @@
 package-lock.json
 /build/
 /.idea/
-/build/
+/lib/
