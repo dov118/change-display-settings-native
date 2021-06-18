@@ -8,6 +8,7 @@
   },
   "files": [
     "lib/index.js",
+    "lib/index.d.ts",
     "build/Release/change-display-settings-native-test.node"
   ],
   "engines": {
@@ -15,11 +16,13 @@
     "npm": ">=6.4.1"
   },
   "dependencies": {
-    "node-addon-api": "^1.1.0"
+    "@types/node": "^15.12.2",
+    "node-addon-api": "^1.1.0",
+    "typescript": "^4.3.2"
   },
   "scripts": {
     "test": "node test/test.js",
-    "build": "node-gyp rebuild"
+    "build": "tsc && node-gyp rebuild"
   },
   "repository": {
     "type": "git",

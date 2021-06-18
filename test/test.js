@@ -1,7 +1,7 @@
-const ChangeDisplayOrientation = require("../src");
+const {ChangeDisplaySettings} = require('../lib');
 
-ChangeDisplayOrientation("180");
+ChangeDisplaySettings.ChangeDisplayOrientation("180");
 
 setTimeout(function() {
-    ChangeDisplayOrientation("0");
+    ChangeDisplaySettings.ChangeDisplayOrientation("0");
 }, 2000)
