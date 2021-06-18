@@ -19,9 +19,9 @@
     "npm": ">=6.4.1"
   },
   "devDependencies": {
-    "@types/node": "^15.12.2",
+    "@types/node": "^15.12.3",
     "node-addon-api": "^4.0.0",
-    "typescript": "^4.3.2"
+    "typescript": "^4.3.4"
   },
   "scripts": {
     "test": "node test/test.js",
